@@ -32,7 +32,7 @@ kubectl apply -f backend-secrets.yml
 kubectl apply -f backend.yml
 ```
 
-#### Levantar servicios
+### Levantar servicios
 
 ```bash
 kubectl get all
@@ -40,8 +40,6 @@ kubectl get all
 minikube service pgadmin-service
 minikube service backend-service
 ```
-
-##### Made with ❤️ by Leandro Arturi
 
 ### Comandos utiles
 
